@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prince Eze - Profile Card</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="moneys.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="profile-card">
+      <img
+        src="profile.png"
+        alt="Profile Picture"
+        data-testid="profilePicture"
+      />
+      <h1 data-testid="fullName">Prince Eze</h1>
+      <h2 data-testid="jobTitle">Frontend Developer</h2>
+      <p data-testid="shortBio">
+        I love building websites and making them easy to use. What started as a
+        hobby has become my passion and career. I work with HTML, CSS, and
+        JavaScript to create websites that look great and work well. I enjoy
+        learning new things and helping other developers grow. When I'm not
+        coding, you can find me reading about tech or sharing what I know with
+        others. I believe in making websites that everyone can use and enjoy.
+      </p>
+      <p data-testid="currentLocation"><i>Lagos, Nigeria</i></p>
+      <p data-testid="emailAddress">pchidireeze@gmail.com</p>
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://linkedin.com/in/prince-eze">LinkedIn</a>
+        <a href="https://github.com/princeeze">GitHub</a>
+        <a href="https://twitter.com/theprinceeze">Twitter</a>
+      </div>
+      <p data-testid="currentTimeUTC">
+        Current UTC Time: <span id="utc-time"></span>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
